@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    product: /myProduct/**  # 简写方式
+    #myProduct:
+      #path: /myProduct/**
+      #serviceId: product
+  ignored-patterns:
+    - /**/product/listForOrder  #排除某些路由 将product服务的 '获取商品列表','扣库存' 接口不对外开放  支持正则表达式
+  sensitive-headers:    #为空 可以过滤敏感头 让cookie可以传过来
+env: dev222  
