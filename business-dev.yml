@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Allure123
+    url: jdbc:mysql://47.101.197.240/sell?characterEncoding-utf-8&useSSL=false
+  jpa:
+    show-sql: true
+    database: mysql
