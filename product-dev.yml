@@ -13,4 +13,4 @@ spring:
 server:
   port: 8081
 env:
-  dev2333
+  dev
